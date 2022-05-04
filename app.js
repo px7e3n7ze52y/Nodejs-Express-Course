@@ -1,5 +1,6 @@
 const express = require('express');
 const req = require('express/lib/request');
+const products = require("./data/products.json");
 const path = require('path');
 
 const app = express();
@@ -9,7 +10,7 @@ const productRouter = express.Router();
 app.use(express.static(path.join(__dirname, "/public/")));
 
 productRouter.route("/").get ( (req, res) => {
-    res.render("products");
+    res.render("products", products);
 })
 
 productRouter.route("/1").get ( (req, res) => {

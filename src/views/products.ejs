@@ -137,6 +137,8 @@
     </header>
     <!-- ====== Header End ====== -->
 
+   
+
     <!-- ====== Hero Start ====== -->
     <section class="ud-hero" id="home">
       <div class="container">
@@ -187,6 +189,17 @@
       </div>
     </section>
     <!-- ====== Hero End ====== -->
+
+    <section class="features" id="ud-features">
+      <div class="container">
+        <h2>Hello products</h2>
+        <% products.map((product) => { %>
+          <h3><%=product.productTitle%></h3>
+          <p><%=product.description%></p>
+          <p><%=product.price%></p>
+        <% }) %>
+      </div>
+    </section>
 
     <!-- ====== Footer Start ====== -->
     <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">

@@ -1,0 +1,24 @@
+{
+    "products": [
+        {
+            "productTitle": "น้ำยาล้างจาน",
+            "description": "สูตรฝาเขียว",
+            "price": 45 
+        },
+        {
+            "productTitle": "น้ำยาล้างจาน2",
+            "description": "สูตรฝาแดง",
+            "price": 20 
+        },
+        {
+            "productTitle": "น้ำยาล้างจาน3",
+            "description": "สูตรฝาน้ำเงิน",
+            "price": 45 
+        },
+        {
+            "productTitle": "น้ำยาล้างจาน4",
+            "description": "สูตรฝาดำ",
+            "price": 60
+        }
+    ]
+}
